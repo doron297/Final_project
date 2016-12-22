@@ -1,4 +1,29 @@
 <resources>
+    <!-- Strings related to the First Screen -->
     <string name="app_name">Auditory_Scanning_Final_Project</string>
-    <string name="app_textView">App - Auditory Scanning</string>
+    <string name="app_textLoginUser">User Name:</string>
+    <string name="app_textLoginPass">Password:</string>
+    <string name="app_textPassForgot">Forgot password?</string>
+    <string name="app_textNotAccount">Have not account?</string>
+    <string name="app_textButtonExplication">Know me!</string>
+    <string name="app_textButtonSignUp">Sign up</string>
+    <string name="app_textButtonLogin">Login</string>
+
+    <!-- Strings related to SignUp -->
+    <string name="title_activity_sign_up">Sign up</string>
+    <string name="prompt_email">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to Areal Personal -->
+    <string name="hi_user">Hello </string>
+    <string name="title_activity_login">Sign in</string>
 </resources>
