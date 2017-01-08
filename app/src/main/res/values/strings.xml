@@ -1,4 +1,7 @@
 <resources>
+    <!-- Strings related to Name os Activitys -->
+    <string name="activity_home">Auditory Scanning</string>
+
     <!-- Strings related to the First Screen -->
     <string name="app_name">Auditory_Scanning_Final_Project</string>
     <string name="app_textLoginUser">User Name:</string>

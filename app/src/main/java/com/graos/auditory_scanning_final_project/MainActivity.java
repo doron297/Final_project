@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Home Screen");
+        //setTitleColor(ge);
 
 //        passLogIn = (EditText) findViewById(R.id.editText_login_pass);
 //        userLogin = (EditText) findViewById(R.id.editText_login_user);

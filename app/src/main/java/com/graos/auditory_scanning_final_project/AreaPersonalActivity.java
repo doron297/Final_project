@@ -14,6 +14,7 @@ public class AreaPersonalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_area_personal);
+        setTitle("Personal Area");
 
         user_view = (TextView) findViewById(R.id.textViewHiUser);
 

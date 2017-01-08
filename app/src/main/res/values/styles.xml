@@ -3,10 +3,24 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyCustomActionBar</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="MyCustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/holo_green_light</item>
+        <item name="android:titleTextStyle">@style/MyCustomTextColor</item>
+    </style>
+
+    <style name="MyCustomTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
 
 </resources>
+
+
+<!--   @android:style/Theme.Holo.Light
+       Theme.AppCompat.Light.DarkActionBar  -->

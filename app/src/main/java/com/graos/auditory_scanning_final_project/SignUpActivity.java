@@ -163,8 +163,14 @@ public class SignUpActivity extends AppCompatActivity implements LoaderCallbacks
         View focusView = null;
 
         // Check for a valid password, if the user entered one.
-        if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
+        if (!isPasswordValid(password)) {
             mPasswordRegister.setError(getString(R.string.error_invalid_password));
+            focusView = mPasswordRegister;
+            cancel = true;
+        }
+
+        if(TextUtils.isEmpty(password)){
+            mPasswordRegister.setError(getString(R.string.error_field_required));
             focusView = mPasswordRegister;
             cancel = true;
         }
