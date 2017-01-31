@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
     EditText _userLogin;
     View focusView = null;
     boolean cancel = false;
-
+    //boolean isRightToLeft = getResources().getBoolean(R.bool.is_right_to_left);
 
     // ***************************************************
     // ************* ON CREATE **************************
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Home Screen");
+        //setTitle("Home Screen");
         //setTitleColor(ge);
 
         _passLogIn = (EditText) findViewById(R.id.editText_login_pass);
